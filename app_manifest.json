@@ -1,0 +1,17 @@
+{
+  "SchemaVersion": 1,
+  "Name" : "Mt3620I2CCompas",
+  "ComponentId" : "1209e5cc-77ac-46b3-8ed2-2ea3d1d32091",
+  "EntryPoint": "/bin/app",
+  "CmdArgs": [],
+  "Capabilities": {
+    "AllowedConnections": [],
+    "AllowedTcpServerPorts": [],
+    "AllowedUdpServerPorts": [],
+    "Gpio": [41,42],
+    "Uart": [],
+    "WifiConfig": false,
+    "NetworkConfig": false,
+    "SystemTime": false
+  }
+}
