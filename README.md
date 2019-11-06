@@ -1,6 +1,10 @@
 # Azure Sphere Bit Bang I2C
 
-An example of writing and reading to an I2C device (HMC5883 Digital compass) using an Azure Sphere
+An example of writing and reading to an I2C device (HMC5883 Digital compass) using an Azure Sphere.
+
+Note that since this example was completed the API for the hardware I2C has been made available and it would make sense to use that in preference to software.
+
+https://docs.microsoft.com/en-us/azure-sphere/reference/applibs-reference/applibs-i2c/i2c-overview
 
 We needed to port this software protocol (bitbang) as the hardware version was not yet available. Based on the work of https://github.com/AlaskaResearchCubeSat/bit-bang-I2C
 
